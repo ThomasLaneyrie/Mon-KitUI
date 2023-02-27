@@ -1,0 +1,238 @@
+.primary{
+  color:#F9C008;
+}
+
+.secondary{
+  color:#0724E0;
+}
+
+.dark-grey{
+  color:#545454;
+}
+
+.medium-light-grey{
+  color:#9C9C9C;
+}
+
+.light-grey{
+  color:#CACACA;
+}
+
+.warning{
+  color: #ffc107;
+}
+
+.danger{
+  color: #dc3545;
+}
+
+.success{
+  color: #28a745;
+}
+
+.info{
+  color: #17a2b8;
+}
+
+.font-headings{
+  font-size: 40px;
+  font-family: "Ubuntu rev=1";
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-text{
+  font-family: "Arnhem Normal", Fallback;
+  font-weight: 400;
+  font-style: normal;
+}
+
+p, li, ul, input, option, select, textarea{
+  font-size: 14px;
+  font-family: 'Tilt Neon', cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1{
+  font-size: 50px;
+  font-family: 'Inconsolata', monospace;
+  font-weight: 400;
+  font-style: normal;
+  margin-top:0;
+  margin-bottom:15px;
+}
+
+h2{
+  font-size: 40px;
+  font-family: 'Inconsolata', monospace;
+  font-weight: 400;
+  font-style: normal;
+  margin-top:0;
+  margin-bottom:15px;
+}
+
+h3{
+  font-size: 30px;
+  font-family: 'Inconsolata', monospace;
+  font-weight: 400;
+  font-style: normal;
+  margin-top:0;
+  margin-bottom:15px;
+}
+
+.btn-primary{
+  display: inline-block;
+  border-radius: 7px;
+  margin:2px;
+  padding :10px 20px 10px 20px;
+  background-color:#F9C008;
+  color:black;
+  font-weight: bold;
+}
+
+.btn-warning{
+  display: inline-block;
+  border-radius: 7px;
+  margin:2px;
+  padding :10px 20px 10px 20px;
+  background-color:#ffc107;
+  color:black;
+  font-weight: bold;
+}
+
+.btn-danger{
+  display: inline-block;
+  border-radius: 7px;
+  margin:2px;
+  padding :10px 20px 10px 20px;
+  background-color:#dc3545;
+  color:black;
+  font-weight: bold;
+}
+
+.btn-info{
+  display: inline-block;
+  border-radius: 7px;
+  margin:2px;
+  padding :10px 20px 10px 20px;
+  background-color:#17a2b8;
+  color:black;
+  font-weight: bold;
+}
+
+.btn-success{
+  display: inline-block;
+  border-radius: 7px;
+  margin:2px;
+  padding :10px 20px 10px 20px;
+  background-color:#28a745;
+  color:black;
+  font-weight: bold;
+}
+
+.btn-primary:hover, .btn-warning:hover, .btn-danger:hover, .btn-info:hover, .btn-success:hover{
+  opacity:80%;
+  cursor: grab;
+}
+
+.container{
+  border:2px solid #F9C008;
+  display: inline-block;
+  margin-left:10px;
+  padding:15px;
+}
+
+.container_2{
+  display: flex;
+  align-items:flex-start;
+}
+
+.container_3{
+  border:2px solid #CACACA;
+  display: inline-block;
+  margin-left:10px;
+  padding:15px;
+  display: flex;
+  align-items:flex-start;
+}
+
+input, select, textarea{
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  line-height: 1.5;
+  color:#9C9C9C;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.badge-primary, .badge-secondary, .badge-grey{
+  display: inline-block;
+  margin-left:15px;
+  padding: 8px;
+  border-radius:50%;
+  display: inline-block;
+  padding: 0.25em 0.4em;
+  font-size: 75%;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+}
+
+.badge-primary{
+  color:#545454;
+  background-color:#F9C008;
+}
+
+.badge-secondary{
+  color:#CACACA;
+  background-color:#0724E0;
+}
+
+.badge-grey{
+  color:#0724E0;
+  background-color:#CACACA;
+}
+
+.my-list{
+  /* display: -webkit-box;
+  display: -ms-flexbox; */
+  /* -webkit-box-orient: vertical;
+  -webkit-box-direction: normal; */
+  /* -ms-flex-direction: column; */
+  display: flex;
+  justify-content:space-between;
+  flex-direction: column;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.my-list-item{
+  position: relative;
+  display: block;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: -1px;
+  background-color: #fff;
+  border: 1px solid #F9C008;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+.card-image-text{
+  display:flex;
+  flex-direction: column;
+  width:300px;
+  heigth:300px;
+}
+
+.card-image{
+  width:300px;
+  heigth:300px;
+}
